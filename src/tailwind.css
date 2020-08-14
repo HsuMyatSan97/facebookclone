@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-  @apply bg-gray-900;
+  background-color: #18191a;
 }
 .menu-btn {
   transition: 0.2s;
@@ -31,4 +31,10 @@ body {
 .edit-cover-photo:hover,
 .edit-profile-photo:hover {
   background-color: #00000070;
+}
+.menu-dark {
+  background-color: #242526;
+}
+.bg-input {
+  background-color: #263137;
 }
