@@ -38,3 +38,13 @@ body {
 .bg-input {
   background-color: #263137;
 }
+.card {
+  background-color: #242526;
+  @apply p-3 rounded;
+}
+.btn-primary {
+  @apply px-3 py-2 inline-block rounded text-white;
+}
+.btn-primary:hover {
+  background-color: #263137;
+}

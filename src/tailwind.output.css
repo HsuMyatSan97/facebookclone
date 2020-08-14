@@ -18118,6 +18118,28 @@ body {
   background-color: #263137;
 }
 
+.card {
+  background-color: #242526;
+  padding: 0.75rem;
+  border-radius: 0.25rem;
+}
+
+.btn-primary {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  display: inline-block;
+  border-radius: 0.25rem;
+  --text-opacity: 1;
+  color: #fff;
+  color: rgba(255, 255, 255, var(--text-opacity));
+}
+
+.btn-primary:hover {
+  background-color: #263137;
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;
