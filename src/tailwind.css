@@ -43,8 +43,16 @@ body {
   @apply p-3 rounded;
 }
 .btn-primary {
-  @apply px-3 py-2 inline-block rounded text-white;
+  @apply px-3 py-2 inline-block rounded-md text-white;
 }
-.btn-primary:hover {
+.btn-round {
+  @apply px-3 py-2 inline-block rounded-full text-gray-500;
+}
+.btn-secondary {
+  @apply px-3 py-1 inline-block rounded-md text-gray-500 text-center;
+}
+.btn-primary:hover,
+.btn-secondary:hover,
+.btn-round:hover {
   background-color: #263137;
 }

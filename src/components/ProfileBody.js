@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import PostText from "./PostText";
 
 class ProfileBody extends Component {
   render() {
@@ -63,7 +64,7 @@ class ProfileBody extends Component {
             <div className="card">
               <div className="flex border-b border-gray-800 pb-3">
                 <img
-                  src="cat.webp"
+                  src="yizhan1.jpg"
                   className="w-16 h-16 rounded-full object-cover"
                   alt=""
                 />
@@ -85,6 +86,7 @@ class ProfileBody extends Component {
                 </a>
               </div>
             </div>
+            <PostText />
           </div>
         </div>
       </div>
